@@ -10,7 +10,7 @@ body {
     box-shadow: 0px 10px 100px 25px rgba(5, 5, 5, 0.644);
     background-color: white;
     justify-content: space-between;
-    width: 100%;
+    width: 70%;
     margin: auto;
     padding: 10px 10px;
     border-style: outset;
@@ -64,6 +64,9 @@ body {
     background-color:rgba(214, 233, 255, 0);
  
 
+}
+@media screen and (max-width: 800px){    
+  .container{width: 100%}
 }
 
 
